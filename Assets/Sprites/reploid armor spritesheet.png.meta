@@ -1,0 +1,769 @@
+fileFormatVersion: 2
+guid: a6a072cb69a868340b50f206bfe1988f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: reploid_armor_idle_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 579
+        width: 98
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe6fe3c449ae2d439d7fbe5d0c3af8c
+      internalID: 239129019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_idle_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 579
+        width: 99
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d1b57b2dd2f154e9df9ab7fd0c9b48
+      internalID: 358561202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_idle_2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 579
+        width: 98
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4173661e2bd5530408a3434de8a92eb6
+      internalID: -586258252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_attack_0
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 581
+        width: 150
+        height: 142
+      alignment: 9
+      pivot: {x: 0.48177713, y: 0.357807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebc830954c4ec244be0257e3fe61d6e
+      internalID: -1584002748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_attack_1
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 579
+        width: 150
+        height: 153
+      alignment: 9
+      pivot: {x: 0.4875232, y: 0.3409755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decdaf559085ba345be3e847f0d674cc
+      internalID: 1815232046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_attack_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 579
+        width: 154
+        height: 181
+      alignment: 9
+      pivot: {x: 0.48784766, y: 0.28802356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce774a09225d024419f1d2c2f5f32920
+      internalID: 1334422885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_attack_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 365
+        width: 155
+        height: 194
+      alignment: 9
+      pivot: {x: 0.4845562, y: 0.26966858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e140762c370e54a43add55510d3b28e9
+      internalID: -1231752073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_attack_4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 365
+        width: 98
+        height: 189
+      alignment: 9
+      pivot: {x: 0.49547312, y: 0.26458788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbcf36637a33034bb491e4714227684
+      internalID: 574320765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_attack_5
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 365
+        width: 185
+        height: 182
+      alignment: 9
+      pivot: {x: 0.6221614, y: 0.34883136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a3c7f90f8f3244395cecfaf3c11231
+      internalID: -1759929572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_attack_6
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 376
+        width: 134
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5168111, y: 0.4236365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99da6e9f0dfe87946a414e9c0400b6a4
+      internalID: 546103364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 238
+        width: 105
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5179614608c82f479fb81a22f852918
+      internalID: 750385276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 236
+        width: 109
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a21a1d59c5da4949b346f64e1de2dc5
+      internalID: -1011925254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 243
+        width: 84
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87c39115671aad4fa0168ed700f0fe6
+      internalID: 989636206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_3
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 243
+        width: 93
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28343a378a1bdaa45a525db297686ae2
+      internalID: -1608041062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_4
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 243
+        width: 95
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79ea8799a749b14f848b36a307cfcf4
+      internalID: -605512226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_5
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 243
+        width: 99
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb8171fc744b2f48a0f571b3077ad29
+      internalID: -1958116460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_6
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 243
+        width: 101
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b263ec6c7eb2f1142a5f9d1578b5f9ab
+      internalID: -112581371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 128
+        width: 104
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f629f3286282b4ab4c49c46357d742
+      internalID: 1061917397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_8
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 124
+        width: 99
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bb3da88ea015e43ad2ba3d6deafc9c
+      internalID: -812593370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_9
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 125
+        width: 91
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d92ef106200f147b3e6906a11f0a0e
+      internalID: -1677941506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 123
+        width: 84
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e314e7c376c61a49b86bf2254a5bded
+      internalID: -1968745960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_11
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 121
+        width: 77
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0919c2a562a6e5a4bb1fabb23ad1ccec
+      internalID: 1155404194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_12
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 123
+        width: 82
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16134ad730c1b3d49985199d22ab9e61
+      internalID: 1273492065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_13
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 121
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c32b8d19ded7d42897958df1c6762b
+      internalID: -1554322402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 23
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a5fbe546a342649a03fff377c2796b
+      internalID: -1592485477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 23
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0565e7d0eed9c52438cc4b150ff2672c
+      internalID: 1637993297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_15
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 23
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8753524861affd443bcd5643b9297d62
+      internalID: 1194544986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reploid_armor_killed_16
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 22
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abbca4782f57b745b52277e47f0d8ca
+      internalID: -231598297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c0ee2e4cb58cd3a43a68a69b6f0446a9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      reploid armor spritesheet_24: 773078444
+      reploid_armor_attack_2: 1334422885
+      reploid_armor_killed_12: 1273492065
+      reploid_armor_killed_7: 1061917397
+      reploid_armor_killed_14: -1592485477
+      reploid_armor_attack_1: 1815232046
+      reploid_armor_killed_9: -1677941506
+      reploid_armor_killed_5: -1958116460
+      reploid_armor_killed_15: 1194544986
+      reploid_armor_killed_6: -112581371
+      reploid_armor_killed_8: -812593370
+      reploid_armor_killed_1: -1011925254
+      reploid armor spritesheet_45: 121535691
+      reploid_armor_killed_3: -1608041062
+      reploid_armor_killed_16: -231598297
+      reploid_armor_killed_4: -605512226
+      reploid armor spritesheet_28: 1019727709
+      reploid_armor_attack_5: -1759929572
+      reploid armor spritesheet_31: 121315272
+      reploid armor spritesheet_32: -1240071872
+      reploid_armor_killed_: 1637993297
+      reploid_armor_killed_0: 750385276
+      reploid_armor_killed_13: -1554322402
+      reploid_armor_idle_2: -586258252
+      reploid_armor_attack_0: -1584002748
+      reploid_armor_killed_10: -1968745960
+      reploid armor spritesheet_40: 98176867
+      reploid_armor_attack_6: 546103364
+      reploid armor spritesheet_29: -2011598472
+      reploid armor spritesheet_39: -633958684
+      reploid armor spritesheet_23: 1572189817
+      reploid armor spritesheet_27: -1502155
+      reploid_armor_idle_0: 239129019
+      reploid_armor_idle_1: 358561202
+      reploid armor spritesheet_25: -1446799023
+      reploid armor spritesheet_30: 1712104888
+      reploid armor spritesheet_43: 1990353533
+      reploid_armor_attack_4: 574320765
+      reploid_armor_killed_11: 1155404194
+      reploid_armor_attack_3: -1231752073
+      reploid armor spritesheet_36: -1774925607
+      reploid armor spritesheet_42: -1556117601
+      reploid_armor_killed_2: 989636206
+      reploid armor spritesheet_33: -1099143666
+      reploid armor spritesheet_38: 722460737
+      reploid armor spritesheet_34: 1720601570
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: a5db229b722143b429e0490464d45bb8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: x_attack_sword_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 456
+        width: 85
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdcbe434c2e24041a958636c85cdddc
+      internalID: 1594575288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_attack_sword_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 450
+        width: 98
+        height: 104
+      alignment: 9
+      pivot: {x: 0.71584225, y: 0.49186325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87716a52210f7e74bb0d8e38faf727b8
+      internalID: 488044490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_attack_sword_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 444
+        width: 115
+        height: 125
+      alignment: 9
+      pivot: {x: 0.7244151, y: 0.4122068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7173149042d6e824b95e2957250c95e3
+      internalID: -233556694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_attack_sword_3
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 437
+        width: 200
+        height: 134
+      alignment: 9
+      pivot: {x: 0.31437668, y: 0.38809386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d9d7449c8c0ea4da8f4b01e9e9df43
+      internalID: 628066413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_attack_sword_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 290
+        width: 212
+        height: 147
+      alignment: 9
+      pivot: {x: 0.3423455, y: 0.45677674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e723f18ce902dfa4e8a6df562f3b6a2c
+      internalID: 1323932396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_attack_sword_5
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 290
+        width: 214
+        height: 131
+      alignment: 9
+      pivot: {x: 0.32801107, y: 0.5369321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada7294244db20642b8feaf79218a750
+      internalID: 1352390357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_attack_sword_6
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 290
+        width: 209
+        height: 100
+      alignment: 9
+      pivot: {x: 0.34308824, y: 0.67733216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9eb2e7cf741be546b7c7a2c3b72b8ce
+      internalID: -1665214933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_attack_sword_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 172
+        width: 148
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5028264, y: 0.7151892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf96f191788b7143bfeed286b6ae755
+      internalID: 2034313861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_attack_sword_8
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 167
+        width: 107
+        height: 89
+      alignment: 9
+      pivot: {x: 0.7074983, y: 0.6920166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90283a4378775194e95d50b99684aa8a
+      internalID: -866198739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_attack_sword_9
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 174
+        width: 100
+        height: 82
+      alignment: 9
+      pivot: {x: 0.72630066, y: 0.65184987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48704a41df1309643b86885f20cd06a4
+      internalID: -1848355124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_attack_sword_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 172
+        width: 83
+        height: 92
+      alignment: 9
+      pivot: {x: 0.6809053, y: 0.5963609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fc41c555f3e9a4ab8ceb70d0380bb6
+      internalID: 921955180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_attack_sword_11
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 170
+        width: 82
+        height: 98
+      alignment: 9
+      pivot: {x: 0.469044, y: 0.5301532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d532cacfe13d34459a6f29fa94f11f8
+      internalID: -1747315426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 89b30011cd57b4d4ab88a05cdb831a58
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      x_attack_sword_8: -866198739
+      x_attack_sword_7: 2034313861
+      x_attack_sword_2: -233556694
+      x_attack_sword_5: 1352390357
+      x_attack_sword_0: 1594575288
+      x_attack_sword_4: 1323932396
+      x_attack_sword_11: -1747315426
+      x_attack_sword_3: 628066413
+      x_attack_sword_6: -1665214933
+      x_attack_sword_10: 921955180
+      x_attack_sword_1: 488044490
+      x_attack_sword_9: -1848355124
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1037 @@
+fileFormatVersion: 2
+guid: 6ebfe37cb00565c4aa42e8bdff411e8b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: x_idle_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 477
+        width: 71
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033957091616a3548b72b164d2ce16e7
+      internalID: -1307168756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_idle_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 477
+        width: 73
+        height: 92
+      alignment: 9
+      pivot: {x: 0.4852784, y: 0.5116816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26d5e76b96da694e95f6281a2578a2a
+      internalID: 795454936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_idle_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 477
+        width: 72
+        height: 90
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf23ef96b6cdd174bb6f307211a0c7c6
+      internalID: 300867921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_idle_3
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 477
+        width: 73
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0427e40f6c4bdde409bd4f3fdd971b3b
+      internalID: 2142563611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_idle_4
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 477
+        width: 72
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21abbccd5b1a8a24da9a03e81677da24
+      internalID: 997179527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_idle_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 371
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1015eda4c0c253d4682ed6f4eabeaf2f
+      internalID: -1958433759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman x4 spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 371
+        width: 65
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3655fb2a546e0bf4da4a730ac04cd617
+      internalID: -563777401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_walking_0
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 373
+        width: 66
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebab17754c8259448d0987c503de0d2
+      internalID: -1300087445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_walking_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 375
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6f4afb522a0474a920e1f0fe553886
+      internalID: 418291279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_walking_2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 375
+        width: 99
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce56d6312cc1644da9694b1bd358444
+      internalID: 932125485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_walking_3
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 373
+        width: 99
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e11f53f9cf59c41bb8398263d0f670
+      internalID: 1439531355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_walking_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 373
+        width: 80
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089abf089147abb4abc5743ba39ca9bb
+      internalID: 93515337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_walking_5
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 373
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ccea46b8d6750469a3398e1e637410
+      internalID: -130285768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_walking_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 261
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eccae8d5a8cf844f844a5f7333ee920
+      internalID: -24728929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_walking_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 263
+        width: 73
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad51b0d28617c848a5365bc76da4344
+      internalID: 1133011981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_walking_8
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 261
+        width: 82
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdd14ddecff3ee48a8800ea89773d33
+      internalID: 32598008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_walking_9
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 261
+        width: 87
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f587a63cfb35c04c9395a70b42410fd
+      internalID: 529436764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_walking_10
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 259
+        width: 86
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e378472f20e9b0468bfe6cc90493858
+      internalID: 1901462544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_walking_11
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 259
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d325be5de78f884479b2b39939a5dcaa
+      internalID: 1572927791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_walking_12
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 259
+        width: 66
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301931ebbbb9b6544b1750ddb7569c15
+      internalID: 1449717635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_walking_13
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 259
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86ac902325a0f04bb99513463bc7772
+      internalID: 340584403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman x4 spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 154
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d0c5ef8d799e94dbea3d4d911a36a8
+      internalID: 848785934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman x4 spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 152
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3a64f94332f9541bc5c06e43089f6f
+      internalID: -2064465873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_running_0
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 152
+        width: 109
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2df2cf446af6394fb43ab2bff082a03
+      internalID: 316924674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_running_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 153
+        width: 117
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a714a94d7bd8e3e41968efc85a1d583e
+      internalID: 448132149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman x4 spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 152
+        width: 79
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9291ddb88f372094a8e9abbe70c9945a
+      internalID: -1607143136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman x4 spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 152
+        width: 62
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079ecf5976b778e44aad412add7da866
+      internalID: 344104670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman x4 spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 172
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e45cb501447664086d011f0a7aeef1
+      internalID: -687427233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman x4 spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 152
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d2339c8c13aa14d800d4bc0cd1c6c4
+      internalID: -1541353371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman x4 spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 152
+        width: 71
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df23f4d5605f411488998ed08296624c
+      internalID: -1923983433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_jumping_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 51
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76300a3ac2a0c8448f1255333bb5e31
+      internalID: -969292193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_jumping_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 35
+        width: 49
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dd5e0b6890cc14ea43fb8cb7a0b299
+      internalID: -691073503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_jumping_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 27
+        width: 48
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44da3d8546ed3d64898c9421eee4e9c1
+      internalID: 1185633606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_jumping_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 24
+        width: 48
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3600335b32bc804f9777dc23fdf7ec2
+      internalID: -833967049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_jumping_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 24
+        width: 57
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb6290318d9c8c43b4071bd7f5bbb1c
+      internalID: 1207816728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_jumping_5
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 29
+        width: 70
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3039d63456e5174cbdc2f928cb9a8b2
+      internalID: -1760827850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_jumping_6
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 27
+        width: 67
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7951dd8f34c94bf45b1f91dae2fbf3bb
+      internalID: -279449993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_jumping_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 24
+        width: 60
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05d698d0034ec1419f961082d698f67
+      internalID: -1744026915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman x4 spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 24
+        width: 64
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafa71a20e2bd84499d86c5869fdbf9d
+      internalID: 1872472880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman x4 spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 27
+        width: 61
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d1a3967ed6ac045a0eb8162baaeb19
+      internalID: 1400472862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman x4 spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 33
+        width: 65
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5f795ca3433e649ad55ac5bf99145a
+      internalID: 2108999086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      x_jumping_0: -969292193
+      x_jumping_4: 1207816728
+      megaman x4 spritesheet_27: -687427233
+      x_idle_2: 300867921
+      x_walking_2: 932125485
+      megaman x4 spritesheet_6: -563777401
+      x_idle_4: 997179527
+      x_jumping_1: -691073503
+      megaman x4 spritesheet_38: 1872472880
+      x_walking_6: -24728929
+      x_walking_12: 1449717635
+      x_walking_1: 418291279
+      x_jumping_3: -833967049
+      x_running_0: 316924674
+      x_walking_7: 1133011981
+      megaman x4 spritesheet_21: 848785934
+      megaman x4 spritesheet_28: -1541353371
+      x_idle_0: -1307168756
+      x_walking_10: 1901462544
+      x_idle_1: 795454936
+      megaman x4 spritesheet_40: 2108999086
+      x_walking_8: 32598008
+      x_running_1: 448132149
+      x_jumping_5: -1760827850
+      x_walking_0: -1300087445
+      megaman x4 spritesheet_25: -1607143136
+      x_walking_13: 340584403
+      x_walking_3: 1439531355
+      megaman x4 spritesheet_22: -2064465873
+      x_walking_5: -130285768
+      x_walking_9: 529436764
+      x_walking_11: 1572927791
+      x_walking_4: 93515337
+      x_jumping_6: -279449993
+      x_jumping_7: -1744026915
+      megaman x4 spritesheet_39: 1400472862
+      megaman x4 spritesheet_29: -1923983433
+      megaman x4 spritesheet_26: 344104670
+      x_idle_3: 2142563611
+      x_idle_5: -1958433759
+      x_jumping_2: 1185633606
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
