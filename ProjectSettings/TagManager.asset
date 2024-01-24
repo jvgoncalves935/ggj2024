@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -11,8 +12,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Ground
+  - Slope
   - 
   - 
   - 
@@ -40,4 +41,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 1575315449
+    locked: 0
+  - name: Enemies
+    uniqueID: 426628207
+    locked: 0
+  - name: Player
+    uniqueID: 1491505721
     locked: 0

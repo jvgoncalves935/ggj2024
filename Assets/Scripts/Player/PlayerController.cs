@@ -142,12 +142,12 @@ public class PlayerController: MonoBehaviour
         if(hit.collider != null && horizontalMove == 0f) {
 
             Debug.DrawRay(hit.point,hit.normal, Color.green);
-            Debug.Log("achou");
+            //Debug.Log("achou");
 
             rb.sharedMaterial = fullFrictionMaterial;
         } else {
             Debug.DrawRay(hit.point, hit.normal, Color.red);
-            Debug.Log("nao achou");
+            //Debug.Log("nao achou");
 
             rb.sharedMaterial = noFrictionMaterial;
         }

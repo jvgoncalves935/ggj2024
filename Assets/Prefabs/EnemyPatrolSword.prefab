@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3712658164165065011}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7225122376710463465}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &3712658164165065012
 BoxCollider2D:
@@ -43,6 +43,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -95,13 +114,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7225122375184398924}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
   m_LocalPosition: {x: -1.31, y: 0, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7225122375588882696}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
 --- !u!212 &7225122375184398926
 SpriteRenderer:
@@ -178,6 +197,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7225122375588882697}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -186,7 +206,6 @@ Transform:
   - {fileID: 7225122375184398927}
   - {fileID: 7225122375721582438}
   m_Father: {fileID: 7225122376710463465}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7225122375721582439
 GameObject:
@@ -212,13 +231,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7225122375721582439}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
   m_LocalPosition: {x: 2.56, y: 0, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7225122375588882696}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
 --- !u!212 &7225122375721582433
 SpriteRenderer:
@@ -300,6 +319,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7225122376710463470}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.5, y: -0.14, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
@@ -308,7 +328,6 @@ Transform:
   - {fileID: 7225122375588882696}
   - {fileID: 3712658164165065010}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &7225122376710463467
 BoxCollider2D:
@@ -320,6 +339,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 4a3634f01abb7f44f92162a4b820a18b, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -353,6 +391,12 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 1
   m_SleepingMode: 0
   m_CollisionDetection: 1
@@ -377,6 +421,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &7225122376710463461
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -415,7 +460,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -990009115
+  m_SortingLayerID: 426628207
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 239129019, guid: a6a072cb69a868340b50f206bfe1988f, type: 3}
@@ -448,4 +493,3 @@ MonoBehaviour:
   pointPositions: []
   enemyBodyDamage: 1
   enemySwordDamage: 2
-  enemyFlippedPrevious: 0
