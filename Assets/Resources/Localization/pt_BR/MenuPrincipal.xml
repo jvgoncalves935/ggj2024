@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<Linguagem ID="pt_BR">
+
+    <string key="OPCOES_LINGUAGEM">
+		<original>Idioma:</original>
+        <translated>Idioma:</translated>
+    </string>
+
+    <string key="MENU_VOLTAR">
+		<original>Voltar</original>
+        <translated>Voltar</translated>
+    </string>
+
+    <string key="MENU_INICIAR">
+		<original>Iniciar</original>
+        <translated>Iniciar</translated>
+    </string>
+
+    <string key="MENU_OPCOES">
+		<original>Opções</original>
+        <translated>Opções</translated>
+    </string>
+
+    <string key="MENU_CREDITOS">
+		<original>Créditos</original>
+        <translated>Créditos</translated>
+    </string>
+
+    <string key="MENU_FUGIR">
+		<original>Fugir</original>
+        <translated>Fugir</translated>
+    </string>
+
+</Linguagem>

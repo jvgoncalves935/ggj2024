@@ -47,7 +47,7 @@ public class MenuPrincipalManager : MonoBehaviour
     }
 
     private void CarregarCena() {
-        SceneManager.LoadScene("Scenes/IntroStage", LoadSceneMode.Single);
+        SceneManager.LoadScene("Scenes/CutsceneInicial", LoadSceneMode.Single);
     }
 
     private void CarregarCreditos()

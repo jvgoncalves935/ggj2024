@@ -32,20 +32,20 @@ public class TelaInicialController : MonoBehaviour{
 
     private IEnumerator IniciarCutscene(){
         
-        StartCoroutine(FadeIn(imagemOuroboros,0.8f));
+        StartCoroutine(FadeIn(imagemOuroboros,0.7f));
+        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(0.9f);
+        StartCoroutine(FadeOut(imagemOuroboros,0.7f));
+        yield return new WaitForSeconds(0.9f);
         yield return new WaitForSeconds(0.8f);
-        yield return new WaitForSeconds(1.0f);
-        StartCoroutine(FadeOut(imagemOuroboros,0.8f));
-        yield return new WaitForSeconds(0.8f);
-        yield return new WaitForSeconds(1.0f);
 
 
-        StartCoroutine(FadeIn(imagemForceDev, 0.8f));
-        yield return new WaitForSeconds(0.8f);
-        yield return new WaitForSeconds(1.0f);
-        StartCoroutine(FadeOut(imagemForceDev, 0.8f));
-        yield return new WaitForSeconds(0.8f);
-        yield return new WaitForSeconds(1.0f);
+        StartCoroutine(FadeIn(imagemForceDev, 0.7f));
+        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(0.9f);
+        StartCoroutine(FadeOut(imagemForceDev, 0.7f));
+        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(0.9f);
         
         StartCoroutine(FadeIn(imagemCMS, 0.8f));
         yield return new WaitForSeconds(0.8f);

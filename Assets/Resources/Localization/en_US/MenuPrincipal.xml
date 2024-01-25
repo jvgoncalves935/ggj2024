@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<Linguagem ID="en_US">
+
+    <string key="OPCOES_LINGUAGEM">
+		<original>Idioma:</original>
+        <translated>Language:</translated>
+    </string>
+
+    <string key="MENU_VOLTAR">
+		<original>Voltar</original>
+        <translated>Back</translated>
+    </string>
+
+    <string key="MENU_INICIAR">
+		<original>Iniciar</original>
+        <translated>Start</translated>
+    </string>
+
+    <string key="MENU_OPCOES">
+		<original>Opções</original>
+        <translated>Options</translated>
+    </string>
+
+    <string key="MENU_CREDITOS">
+		<original>Créditos</original>
+        <translated>Credits</translated>
+    </string>
+
+    <string key="MENU_FUGIR">
+		<original>Fugir</original>
+        <translated>Escape</translated>
+    </string>
+    
+
+</Linguagem>

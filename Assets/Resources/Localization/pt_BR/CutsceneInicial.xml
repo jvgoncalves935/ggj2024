@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<Linguagem ID="pt_BR">
+
+    <string key="INICIAL_0">
+        <char>Mayah</char>
+		<original>"Esta é uma noite muito especial. A lua está no auge, é o dia exato para conectar o mundo físico com o espiritual. Prestar os devidos respeitos aos nossos ancestrais e prestar nossa oferenda para o guardião da floresta."</original>
+        <translated>"Esta é uma noite muito especial. A lua está no auge, é o dia exato para conectar o mundo físico com o espiritual. Prestar os devidos respeitos aos nossos ancestrais e prestar nossa oferenda para o guardião da floresta."</translated>
+    </string>
+
+    <string key="INICIAL_1">
+        <char>Mara</char>
+		<original>"Mas Vovó, por que tem um monstro desenhado junto com os nossos ancestrais?"</original>
+        <translated>"Mas Vovó, por que tem um monstro desenhado junto com os nossos ancestrais?"</translated>
+    </string>
+
+    <string key="INICIAL_2">
+        <char>Mayah</char>
+		<original>"Cuidado menina! Quer que a aldeia seja arrasada por uma maldição?!"</original>
+        <translated>"Cuidado menina! Quer que a aldeia seja arrasada por uma maldição?!"</translated>
+    </string>
+
+    <string key="INICIAL_3">
+        <char>Mayah</char>
+		<original>"Acalme-se, criança. Não tem porque se desesperar. Desde que você respeite a floresta e seus antepassados o espírito será sempre seu protetor."</original>
+        <translated>"Acalme-se, criança. Não tem porque se desesperar. Desde que você respeite a floresta e seus antepassados o espírito será sempre seu protetor."</translated>
+    </string>
+
+    <string key="INICIAL_4">
+        <char>Mara</char>
+		<original>"Vovó... porque a floresta precisa de um guardião? São todos tão fortes, além disso o papai é super forte! Vai derrotar qualquer um que nos ameaçar."</original>
+        <translated>"Vovó... porque a floresta precisa de um guardião? São todos tão fortes, além disso o papai é super forte! Vai derrotar qualquer um que nos ameaçar."</translated>
+    </string>
+
+    <string key="INICIAL_5">
+        <char>Mayah</char>
+		<original>"Você ainda é muito jovem para entender, mas os homens brancos têm monstros enormes que destroem a floresta como se fosse uma lufada de vento nas planícies."</original>
+        <translated>"Você ainda é muito jovem para entender, mas os homens brancos têm monstros enormes que destroem a floresta como se fosse uma lufada de vento nas planícies."</translated>
+    </string>
+
+    <string key="INICIAL_6">
+        <char>Manuel</char>
+		<original>"Que merda de sonho bizarro... mas que velha maldita. Vão se fuder você, sua neta e seu cachorro bombado do caralho."</original>
+        <translated>"Que merda de sonho bizarro... mas que velha maldita. Vão se fuder você, sua neta e seu cachorro bombado do caralho."</translated>
+    </string>
+
+    <string key="INICIAL_7">
+        <char>Manuel</char>
+		<original>"O que aqueles animais colocaram na minha bebida? Tô me sentindo meio chapado."</original>
+        <translated>"O que aqueles animais colocaram na minha bebida? Tô me sentindo meio chapado."</translated>
+    </string>
+
+    <string key="INICIAL_8">
+        <char>Manuel</char>
+		<original>"Pelo menos a gente botou os macacos pelados pra correr."</original>
+        <translated>"Pelo menos a gente botou os macacos pelados pra correr."</translated>
+    </string>
+
+    <string key="INICIAL_9">
+        <char>Manuel</char>
+		<original>"Droga! Falaram que haviam índias lindas para se divertir... Enfim, vamos ver o que eu acho por aqui."</original>
+        <translated>"Droga! Falaram que haviam índias lindas para se divertir... Enfim, vamos ver o que eu acho por aqui."</translated>
+    </string>
+
+</Linguagem>

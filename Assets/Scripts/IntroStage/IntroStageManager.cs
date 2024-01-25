@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class IntroStageManager : MonoBehaviour
 {
+    [SerializeField] private SceneLoader sceneLoader;
+    [SerializeField] private AudioManager audioManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +44,21 @@ public class IntroStageManager : MonoBehaviour
     private void DescarregarCenaPausa()
     {
         SceneManager.UnloadSceneAsync("MenuPausa");
+    }
+
+    public void VerificarSceneLoaderInstanciado() {
+        if(FindObjectOfType<SceneLoader>() == null) {
+            Instantiate(sceneLoader);
+            Instantiate(audioManager);
+            //DontDestroyOnLoad(sceneLoader);
+            //Debug.Log("SceneData criado em EventHorizon");
+        } else {
+            //Debug.Log("SceneData anteriormente criado");
+        }
+    }
+
+    public void MusicaInicio() {
+        AudioManager.InstanciaAudioManager.Play("Lenda do Espírito");
     }
 
 

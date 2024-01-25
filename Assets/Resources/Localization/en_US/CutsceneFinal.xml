@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<Linguagem ID="en_US">
+
+    <string key="FINAL_0">
+        <char>Tokonimé</char>
+		<original>"Seu sacrifício foi recebido! Porém, o sangue ofertado não condiz com o sangue derramado."</original>
+        <translated>"Your sacrifice was received! However, the blood offered does not match the blood shed."</translated>
+    </string>
+
+    <string key="FINAL_1">
+        <char>Manuel</char>
+		<original>"Como assim? Eu fiz tudo que me pediu no ritual. Até fiquei ouvindo aquela velha rabugenta falando na minha cabeça."</original>
+        <translated>"What do you mean? I did everything you asked me to do in the ritual. I even listened to that grumpy granny talking in my head."</translated>
+    </string>
+
+    <string key="FINAL_2">
+        <char>Tokonimé</char>
+		<original>"Sua alma ficará presa na floresta até que você descubra suas raízes e pague sua dívida com sangue. Seus atos profanos serão punidos."</original>
+        <translated>"Your soul will be trapped in the forest until you discover your true roots and pay your debt in blood. Your profane deeds will be punished."</translated>
+    </string>
+
+    <string key="FINAL_3">
+        <char>Manuel</char>
+		<original>"Aaarrrghhh!"</original>
+        <translated>"Aaarrrghhh!"</translated>
+    </string>
+
+    <string key="FINAL_4">
+        <char>Natives</char>
+		<original>"Você vem conosco."</original>
+        <translated>"You are coming with us."</translated>
+    </string>
+
+</Linguagem>

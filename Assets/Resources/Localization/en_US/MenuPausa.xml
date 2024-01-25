@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<Linguagem ID="en_US">
+
+    <string key="MENU_PAUSA_CONTINUAR">
+		<original>Continuar</original>
+        <translated>Continue</translated>
+    </string>
+
+    <string key="MENU_PAUSA_VOLTAR_MENU">
+		<original>Menu Principal</original>
+        <translated>Main Menu</translated>
+    </string>
+
+    <string key="MENU_PAUSA_SAIR">
+		<original>Sair do Jogo</original>
+        <translated>Close Game</translated>
+    </string>
+
+</Linguagem>

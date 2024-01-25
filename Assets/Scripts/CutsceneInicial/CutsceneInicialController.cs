@@ -53,10 +53,7 @@ public class CutsceneInicialController : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         for(int i = 0;i < NUM_IMAGENS;i++) {
-            if(i == 6) {
-                yield return new WaitForSeconds(2f);
-            }
-
+            
             StartCoroutine(FadeIn(imagensCutscene[i], 0.6f));
             yield return new WaitForSeconds(0.6f);
             SetText(textosCutscenes[i]);
@@ -71,10 +68,10 @@ public class CutsceneInicialController : MonoBehaviour
         }
 
         yield return new WaitForSeconds(3f);
-        IniciarCenaFloresta();
+        IniciarPrimeiraFase();
     }
-    private void IniciarCenaFloresta() {
-        SceneLoader.InstanciaSceneLoader.SetProximaCena("Ritual");
+    private void IniciarPrimeiraFase() {
+        SceneLoader.InstanciaSceneLoader.SetProximaCena("IntroStage");
         //Debug.Log(SceneLoader.InstanciaSceneLoader.GetProximaCena());
         GerenciadorCena.CarregarCena("Loading");
     }
@@ -124,7 +121,7 @@ public class CutsceneInicialController : MonoBehaviour
 
     private void CheckSkipCutscene() {
         if(Input.GetButtonDown("Escape")) {
-            IniciarCenaFloresta();
+            IniciarPrimeiraFase();
         }
     }
 

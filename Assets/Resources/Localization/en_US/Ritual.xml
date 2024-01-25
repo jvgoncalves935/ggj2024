@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<Linguagem ID="en_US">
+
+    <string key="RITUAL_0_0">
+        <char>Mayah</char>
+		<original>"Tokonimé guarda a floresta desde os tempos ancestrais. Todos os inimigos da natureza são também seus inimigos. Da mesma forma, ele também defende os amigos da floresta."</original>
+        <translated>"Tokonimé guards the forest since ancient times. All enemies of nature are also his enemies. In the same way, he also defends the friends of the forest."</translated>
+    </string>
+
+    <string key="RITUAL_0_1">
+		<char>Manuel</char>
+        <original>"HAHA! Acho melhor contratar um segurança mais competente."</original>
+        <translated>"HAHA! I think you'd better hire a more competent security guard."</translated>
+    </string>
+
+    <string key="RITUAL_1_0">
+		<char>Mara</char>
+        <original>"O Guardião defende a gente dos homens brancos? Haha, vocês irão morrer se vierem atrás do nosso povo!"</original>
+        <translated>"The Guardian defends us from the white men? Haha, you will die if you come after our people!"</translated>
+    </string>
+
+    <string key="RITUAL_1_1">
+		<char>Manuel</char>
+        <original>"Quem matou quem mesmo? Aprenda o seu lugar, sua pirralha boca suja."</original>
+        <translated>"Who killed who anyway? Learn your place, you foul-mouthed brat."</translated>
+    </string>
+
+    <string key="RITUAL_2_0">
+		<char>Mayah</char>
+        <original>"Quando o Espírito marca sua presa nada pode impedi-lo."</original>
+        <translated>"When the Spirit marks its prey nothing can stop it."</translated>
+    </string>
+
+    <string key="RITUAL_2_1">
+		<char>Manuel</char>
+        <original>"Tá bom, tá começando a perder a graça. Eu acho que eu realmente estou ficando louco."</original>
+        <translated>"Okay, it's starting to get weird. I think that I'm really going crazy."</translated>
+    </string>
+
+    <string key="RITUAL_3_0">
+		<char>Mayah</char>
+        <original>"Segundo nossas tradições, os crânios dos xamãs espirituais carregam a energia dos grandes espiritualistas de nossa tribo. Esses itens são a maior conexão entre o atual e o ancestral."</original>
+        <translated>"According to our traditions, the skulls of the spiritual shamans carry the energy of the great spiritualists of our tribe. These items are the greatest connection between the present and the ancestral."</translated>
+    </string>
+
+    <string key="RITUAL_3_1">
+		<char>Manuel</char>
+        <original>"Que porcaria! Se é pra revirar lixo eu prefiro pegar um cadáver das covas coletivas!"</original>
+        <translated>"What a mess! If it's to go through garbage I'd rather get a corpse from the mass graves!"</translated>
+    </string>
+
+    <string key="RITUAL_4_0">
+		<char>Mayah</char>
+        <original>"A natureza é uma só. Tudo se conecta de uma forma ou de outra. Para redimir uma vida tirada, outra deve ser dada."</original>
+        <translated>"Nature is all one. Everything is connected in a way or another. To redeem a life taken, another must be given."</translated>
+    </string>
+
+    <string key="RITUAL_4_1">
+		<char>Manuel</char>
+        <original>"Hahaha! O que é isso? Um esquilo bombado?"</original>
+        <translated>"Hahaha! What is that? A squirrel on steroids?"</translated>
+    </string>
+    
+    <string key="RITUAL_5_0">
+		<char>Mayah</char>
+        <original>"A oferenda de sangue faz parte do Ritual de Redenção. Todos os descendentes da floresta são julgados por Tokonimé e são determinados como dignos ou não-dignos."</original>
+        <translated>"The offering of blood is part of the Ritual of Redemption. All forest descendants are judged by Tokonimé and are determined as worthy or unworthy."</translated>
+    </string>
+
+    <string key="RITUAL_5_1">
+		<char>Mara</char>
+        <original>"Então é por isso que a gente não usa os sangues dos porcos?"</original>
+        <translated>"So is that why we don't use the pigs' blood?"</translated>
+    </string>
+
+    <string key="RITUAL_ITEM_NAO_COLETADO">
+        <original>Tokonimé aguarda sua oferenda.</original>
+        <translated>Tokonimé awaits your offering.</translated>
+    </string>
+
+    <string key="RITUAL_ITEM_OFERENDA">
+        <original>Aperte "F" para realizar sua oferenda.</original>
+        <translated>Press "F" to peform your offering.</translated>
+    </string>
+
+    <string key="RITUAL_ITEM_COLETAR">
+        <original>Aperte "F" para coletar a oferenda.</original>
+        <translated>Press "F" to collect your offering.</translated>
+    </string>
+
+</Linguagem>
