@@ -15,7 +15,7 @@ public class Cutscene02Manager: MonoBehaviour
     private Dictionary<string, string> stringsCutsceneInicial;
     private Dictionary<string, string> stringsPersonagensCutsceneInicial;
 
-    private static int NUM_IMAGENS = 10;
+    private static int NUM_IMAGENS = 1;
 
     private string[] textosCutscenes;
 
@@ -50,15 +50,15 @@ public class Cutscene02Manager: MonoBehaviour
         CheckSkipCutscene();
     }
     private IEnumerator CutsceneInicial() {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0f);
 
-        for(int i = 0;i < NUM_IMAGENS;i++) {
+        for(int i = 0;i < 2;i++) {
             
             StartCoroutine(FadeIn(imagensCutscene[i], 0.6f));
             yield return new WaitForSeconds(0.6f);
             SetText(textosCutscenes[i]);
 
-            yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+            yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
             yield return new WaitForSeconds(0.1f);
 
             StartCoroutine(FadeOut(imagensCutscene[i], 0.6f));
@@ -67,7 +67,7 @@ public class Cutscene02Manager: MonoBehaviour
             yield return new WaitForSeconds(0.6f);
         }
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1f);
         IniciarPrimeiraFase();
     }
     private void IniciarPrimeiraFase() {
@@ -130,9 +130,9 @@ public class Cutscene02Manager: MonoBehaviour
     }
 
     private void AplicarStrings() {
-        textosCutscenes = new string[10];
-        for(int i = 0;i < 10;i++) {
-            textosCutscenes[i] = "[" + stringsPersonagensCutsceneInicial["CUTSCENE02_" + i] + "]" + "\n" + stringsCutsceneInicial["CUTSCENE02_" + i];
+        textosCutscenes = new string[2];
+        for(int i = 0;i < 2;i++) {
+            textosCutscenes[i] = stringsCutsceneInicial["CUTSCENE02_" + i];
         }
     }
 }

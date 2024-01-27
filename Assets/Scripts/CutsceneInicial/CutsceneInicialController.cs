@@ -15,7 +15,7 @@ public class CutsceneInicialController : MonoBehaviour
     private Dictionary<string, string> stringsCutsceneInicial;
     private Dictionary<string, string> stringsPersonagensCutsceneInicial;
 
-    private static int NUM_IMAGENS = 10;
+    private static int NUM_IMAGENS = 6;
 
     private string[] textosCutscenes;
 
@@ -50,24 +50,28 @@ public class CutsceneInicialController : MonoBehaviour
         CheckSkipCutscene();
     }
     private IEnumerator CutsceneInicial() {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
 
         for(int i = 0;i < NUM_IMAGENS;i++) {
             
-            StartCoroutine(FadeIn(imagensCutscene[i], 0.6f));
-            yield return new WaitForSeconds(0.6f);
+            StartCoroutine(FadeIn(imagensCutscene[i], 0.5f));
+            yield return new WaitForSeconds(0.5f);
             SetText(textosCutscenes[i]);
 
-            yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+            yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
+            if(i == 4) {
+                yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(5f));
+            }
+
             yield return new WaitForSeconds(0.1f);
 
-            StartCoroutine(FadeOut(imagensCutscene[i], 0.6f));
-            yield return new WaitForSeconds(0.6f);
+            StartCoroutine(FadeOut(imagensCutscene[i], 0.5f));
+            yield return new WaitForSeconds(0.5f);
             SetText("");
-            yield return new WaitForSeconds(0.6f);
+            yield return new WaitForSeconds(0.5f);
         }
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1f);
         IniciarPrimeiraFase();
     }
     private void IniciarPrimeiraFase() {
@@ -130,9 +134,9 @@ public class CutsceneInicialController : MonoBehaviour
     }
 
     private void AplicarStrings() {
-        textosCutscenes = new string[10];
-        for(int i = 0;i < 10;i++) {
-            textosCutscenes[i] = "[" + stringsPersonagensCutsceneInicial["INICIAL_" + i] + "]" + "\n" + stringsCutsceneInicial["INICIAL_" + i];
+        textosCutscenes = new string[NUM_IMAGENS];
+        for(int i = 0;i < NUM_IMAGENS;i++) {
+            textosCutscenes[i] = stringsCutsceneInicial["INICIAL_" + i];
         }
     }
 }
