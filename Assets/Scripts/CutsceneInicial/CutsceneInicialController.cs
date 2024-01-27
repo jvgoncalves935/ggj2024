@@ -75,7 +75,7 @@ public class CutsceneInicialController : MonoBehaviour
         IniciarPrimeiraFase();
     }
     private void IniciarPrimeiraFase() {
-        SceneLoader.InstanciaSceneLoader.SetProximaCena("IntroStage");
+        SceneLoader.InstanciaSceneLoader.SetProximaCena("Fase01");
         //Debug.Log(SceneLoader.InstanciaSceneLoader.GetProximaCena());
         GerenciadorCena.CarregarCena("Loading");
     }
@@ -92,7 +92,7 @@ public class CutsceneInicialController : MonoBehaviour
     }
 
     public void MusicaInicio() {
-        AudioManager.InstanciaAudioManager.Play("Lenda do Espírito");
+        AudioManager.InstanciaAudioManager.Play("Piano Sad");
     }
 
     public void SetText(string texto) {

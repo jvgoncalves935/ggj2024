@@ -72,13 +72,13 @@ MonoBehaviour:
     soundClip: {fileID: 0}
     musica: 1
     som: 0
-    volume: 1
+    volume: 0.631
     pitch: 1
     loop: 1
     awake: 1
     source: {fileID: 0}
-  - name: "Ritual de Reden\xE7\xE3o"
-    clip: {fileID: 8300000, guid: 1a0b4ae84f4894442aaf60eb51e296cf, type: 3}
+  - name: Close Encounters
+    clip: {fileID: 8300000, guid: 70a36b61293f6634490ad388cf98e62e, type: 3}
     soundClip: {fileID: 0}
     musica: 1
     som: 0
@@ -87,12 +87,12 @@ MonoBehaviour:
     loop: 1
     awake: 1
     source: {fileID: 0}
-  - name: Profanidade
-    clip: {fileID: 8300000, guid: 475309cd20df56a40980bf8317dfa569, type: 3}
+  - name: Piano Sad
+    clip: {fileID: 8300000, guid: f1f9827e654e1184391cb337ba6d4549, type: 3}
     soundClip: {fileID: 0}
     musica: 1
     som: 0
-    volume: 1
+    volume: 0.785
     pitch: 1
     loop: 1
     awake: 1
@@ -107,7 +107,7 @@ MonoBehaviour:
     loop: 1
     awake: 1
     source: {fileID: 0}
-  - name: Dori
+  - name: eae mano blz
     clip: {fileID: 8300000, guid: a00cf77b2b3b2404b88e9bb75e1284fa, type: 3}
     soundClip: {fileID: 0}
     musica: 1
