@@ -2,63 +2,75 @@
 <Linguagem ID="en_US">
 
     <string key="CUTSCENE01_0">
-        <char>Mayah</char>
-		<original>"Esta é uma noite muito especial. A lua está no auge, é o dia exato para conectar o mundo físico com o espiritual. Prestar os devidos respeitos aos nossos ancestrais e prestar nossa oferenda para o guardião da floresta."</original>
-        <translated>"teste 01"</translated>
+        <char> </char>
+		<original> </original>
+        <translated>...</translated>
     </string>
 
     <string key="CUTSCENE01_1">
-        <char>Mara</char>
-		<original>"Mas Vovó, por que tem um monstro desenhado junto com os nossos ancestrais?"</original>
-        <translated>"But Grandma, why there is a monster drawn together with our ancestors?"</translated>
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: "Hey, I think you might have broken some of the gravity laws..."</translated>
     </string>
 
     <string key="CUTSCENE01_2">
-        <char>Mayah</char>
-		<original>"Cuidado menina! Quer que a aldeia seja arrasada por uma maldição?!"</original>
-        <translated>"Careful, child! Do you want our village getting ravaged by a curse?!"</translated>
+        <char> </char>
+		<original> </original>
+        <translated>???: "I'm sick."</translated>
     </string>
 
     <string key="CUTSCENE01_3">
-        <char>Mayah</char>
-		<original>"Acalme-se, criança. Não tem porque se desesperar. Desde que você respeite a floresta e seus antepassados o espírito será sempre seu protetor."</original>
-        <translated>"Calm down, little one. There is no need to despair. As long as you respect the forest and your ancestors, the spirit will always be your protector."</translated>
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: "What?"</translated>
     </string>
 
     <string key="CUTSCENE01_4">
-        <char>Mara</char>
-		<original>"Vovó... porque a floresta precisa de um guardião? São todos tão fortes, além disso o papai é super forte! Vai derrotar qualquer um que nos ameaçar."</original>
-        <translated>"Grandma... why does the forest needs a guardian? Everyone is so strong, Daddy is also super strong! He will defeat anyone who threatens us."</translated>
+        <char> </char>
+		<original> </original>
+        <translated>???: "I'm sick of your terrible jokes!"</translated>
     </string>
 
     <string key="CUTSCENE01_5">
-        <char>Mayah</char>
-		<original>"Você ainda é muito jovem para entender, mas os homens brancos têm monstros enormes que destroem a floresta como se fosse uma lufada de vento nas planícies."</original>
-        <translated>"You are still too young to understand, but the white men have huge monsters that destroy the forest like a gust of wind on the plains."</translated>
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: "They aren't that bad."</translated>
     </string>
 
     <string key="CUTSCENE01_6">
-        <char>Manuel</char>
-		<original>"Que merda de sonho bizarro... mas que velha maldita. Vão se fuder você, sua neta e seu cachorro bombado do caralho."</original>
-        <translated>"What a fuckin' bizarre dream... what a freakin' old woman. Fuck you, your granddaughter and your goddamned pumped up dog."</translated>
+        <char> </char>
+		<original> </original>
+        <translated>???: "They're horrible, horrendous. Nobody likes them."</translated>
     </string>
 
     <string key="CUTSCENE01_7">
-        <char>Manuel</char>
-		<original>"O que aqueles animais colocaram na minha bebida? Tô me sentindo meio chapado."</original>
-        <translated>"What did those animals put in my drink? I'm feeling a little stoned."</translated>
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: "Well, if I wanted a good joke I would just look in my mirror."</translated>
     </string>
 
     <string key="CUTSCENE01_8">
-        <char>Manuel</char>
-		<original>"Pelo menos a gente botou os macacos pelados pra correr."</original>
-        <translated>"At least we got those naked monkeys to run."</translated>
+        <char> </char>
+		<original> </original>
+        <translated>???: "I'm going to end it all. All of this little despicable festival."</translated>
     </string>
 
     <string key="CUTSCENE01_9">
-        <char>Manuel</char>
-		<original>"Droga! Falaram que haviam índias lindas para se divertir... Enfim, vamos ver o que eu acho por aqui."</original>
-        <translated>"Dammit! They said there were beautiful native females to have some fun. Anyway, let's see what I can find around here."</translated>
+        <char> </char>
+		<original> </original>
+        <translated>???: "And you're going to perish. I'll be making you a favor and ending your pathetic life."</translated>
+    </string>
+
+    <string key="CUTSCENE01_10">
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: "Hey, buddy! No need to be like this."</translated>
+    </string>
+
+    <string key="CUTSCENE01_11">
+        <char> </char>
+		<original> </original>
+        <translated>???: "You're going to die."</translated>
     </string>
 
 </Linguagem>

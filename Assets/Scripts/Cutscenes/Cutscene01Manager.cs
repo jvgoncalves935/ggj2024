@@ -15,7 +15,7 @@ public class Cutscene01Manager: MonoBehaviour
     private Dictionary<string, string> stringsCutsceneInicial;
     private Dictionary<string, string> stringsPersonagensCutsceneInicial;
 
-    private static int NUM_IMAGENS = 10;
+    private static int NUM_IMAGENS = 3;
 
     private string[] textosCutscenes;
 
@@ -50,24 +50,73 @@ public class Cutscene01Manager: MonoBehaviour
         CheckSkipCutscene();
     }
     private IEnumerator CutsceneInicial() {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0f);
 
-        for(int i = 0;i < NUM_IMAGENS;i++) {
-            
-            StartCoroutine(FadeIn(imagensCutscene[i], 0.6f));
-            yield return new WaitForSeconds(0.6f);
-            SetText(textosCutscenes[i]);
+        //Imagem 1
+        StartCoroutine(FadeIn(imagensCutscene[0], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+        
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(2.5f));
 
-            yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
-            yield return new WaitForSeconds(0.1f);
+        SetText(textosCutscenes[1]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
 
-            StartCoroutine(FadeOut(imagensCutscene[i], 0.6f));
-            yield return new WaitForSeconds(0.6f);
-            SetText("");
-            yield return new WaitForSeconds(0.6f);
-        }
+        SetText(textosCutscenes[2]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(2.5f));
 
-        yield return new WaitForSeconds(3f);
+        SetText(textosCutscenes[3]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(2.5f));
+
+        SetText(textosCutscenes[4]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.5f));
+
+        StartCoroutine(FadeOut(imagensCutscene[0], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+        SetText("");
+        yield return new WaitForSeconds(0.6f);
+
+        //Imagem 2
+        StartCoroutine(FadeIn(imagensCutscene[1], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+
+        SetText(textosCutscenes[5]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.5f));
+
+        SetText(textosCutscenes[6]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
+
+        SetText(textosCutscenes[7]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4.5f));
+
+        StartCoroutine(FadeOut(imagensCutscene[1], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+        SetText("");
+        yield return new WaitForSeconds(0.6f);
+
+
+        //Imagem 3
+        StartCoroutine(FadeIn(imagensCutscene[2], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+
+        SetText(textosCutscenes[8]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
+
+        SetText(textosCutscenes[9]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(5.5f));
+
+        SetText(textosCutscenes[10]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.0f));
+
+        SetText(textosCutscenes[11]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.0f));
+
+        StartCoroutine(FadeOut(imagensCutscene[2], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+        SetText("");
+        yield return new WaitForSeconds(0.6f);
+
+        yield return new WaitForSeconds(1f);
         IniciarPrimeiraFase();
     }
     private void IniciarPrimeiraFase() {
@@ -130,9 +179,9 @@ public class Cutscene01Manager: MonoBehaviour
     }
 
     private void AplicarStrings() {
-        textosCutscenes = new string[10];
-        for(int i = 0;i < 10;i++) {
-            textosCutscenes[i] = "[" + stringsPersonagensCutsceneInicial["CUTSCENE01_" + i] + "]" + "\n" + stringsCutsceneInicial["CUTSCENE01_" + i];
+        textosCutscenes = new string[12];
+        for(int i = 0;i < 12;i++) {
+            textosCutscenes[i] = stringsCutsceneInicial["CUTSCENE01_" + i];
         }
     }
 }
