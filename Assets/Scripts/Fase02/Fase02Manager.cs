@@ -11,6 +11,7 @@ public class Fase02Manager:MonoBehaviour
     void Start() {
         CarregarCenaPause();
         VerificarSceneLoaderInstanciado();
+        MusicaInicio();
     }
 
     // Update is called once per frame
@@ -52,7 +53,7 @@ public class Fase02Manager:MonoBehaviour
     }
 
     public void MusicaInicio() {
-        AudioManager.InstanciaAudioManager.Play("Lenda do Espírito");
+        AudioManager.InstanciaAudioManager.Play("Inverted World");
     }
 
 
