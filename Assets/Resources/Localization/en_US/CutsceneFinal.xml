@@ -2,33 +2,164 @@
 <Linguagem ID="en_US">
 
     <string key="FINAL_0">
-        <char>Tokonimé</char>
-		<original>"Seu sacrifício foi recebido! Porém, o sangue ofertado não condiz com o sangue derramado."</original>
-        <translated>"Your sacrifice was received! However, the blood offered does not match the blood shed."</translated>
+        <char> </char>
+		<original> </original>
+        <translated>???: Did you really think you could win?</translated>
     </string>
 
     <string key="FINAL_1">
-        <char>Manuel</char>
-		<original>"Como assim? Eu fiz tudo que me pediu no ritual. Até fiquei ouvindo aquela velha rabugenta falando na minha cabeça."</original>
-        <translated>"What do you mean? I did everything you asked me to do in the ritual. I even listened to that grumpy granny talking in my head."</translated>
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: "..."</translated>
     </string>
 
     <string key="FINAL_2">
-        <char>Tokonimé</char>
-		<original>"Sua alma ficará presa na floresta até que você descubra suas raízes e pague sua dívida com sangue. Seus atos profanos serão punidos."</original>
-        <translated>"Your soul will be trapped in the forest until you discover your true roots and pay your debt in blood. Your profane deeds will be punished."</translated>
+        <char> </char>
+		<original> </original>
+        <translated>???: You never win, you're a disgrace, a failure.</translated>
     </string>
 
     <string key="FINAL_3">
-        <char>Manuel</char>
-		<original>"Aaarrrghhh!"</original>
-        <translated>"Aaarrrghhh!"</translated>
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: ...</translated>
     </string>
 
     <string key="FINAL_4">
-        <char>Natives</char>
-		<original>"Você vem conosco."</original>
-        <translated>"You are coming with us."</translated>
+        <char> </char>
+		<original> </original>
+        <translated>???: Say something before I kill you!</translated>
     </string>
 
+    <string key="FINAL_5">
+        <char> </char>
+		<original> </original>
+        <translated>Crowd: "Leave him alone!"</translated>
+    </string>
+
+    <string key="FINAL_6">
+        <char> </char>
+		<original> </original>
+        <translated>Crowd: "Yeah! Go away!"</translated>
+    </string>
+
+    <string key="FINAL_7">
+        <char> </char>
+		<original> </original>
+        <translated>???: "I’M GONNA KILL YOU ALL!"</translated>
+    </string>
+
+    <string key="FINAL_8">
+        <char> </char>
+		<original> </original>
+        <translated>Crowd: "Get up Chuckles! I know you can!"</translated>
+    </string>
+
+    <string key="FINAL_9">
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: "I can't, it is way too strong."</translated>
+    </string>
+
+    <string key="FINAL_10">
+        <char> </char>
+		<original> </original>
+        <translated>Crowd: "Chuckles! Chuckles! Chuckles!"</translated>
+    </string>
+
+    <string key="FINAL_11">
+        <char> </char>
+		<original> </original>
+        <translated>???: "Stop chanting their name!"</translated>
+    </string>
+
+    <string key="FINAL_12">
+        <char> </char>
+		<original> </original>
+        <translated>Crowd: "Chuckles! Chuckles! Chuckles!"</translated>
+    </string>
+
+    <string key="FINAL_13">
+        <char> </char>
+		<original> </original>
+        <translated>???: "STOP!"</translated>
+    </string>
+
+    <string key="FINAL_14">
+        <char> </char>
+		<original> </original>
+        <translated>Crowd: "Chuckles! Chuckles! Chuckles!"</translated>
+    </string>
+
+    <string key="FINAL_15">
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: "I know you."</translated>
+    </string>
+
+    <string key="FINAL_16">
+        <char> </char>
+		<original> </original>
+        <translated>???: "What?"</translated>
+    </string>
+
+    <string key="FINAL_17">
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: "I've been like you for some time now, miserable, sad."</translated>
+    </string>
+
+    <string key="FINAL_18">
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: "But I won't let these thoughts win no more."</translated>
+    </string>
+
+    <string key="FINAL_19">
+        <char> </char>
+		<original> </original>
+        <translated>???: "You're going to die!"</translated>
+    </string>
+
+    <string key="FINAL_20">
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: "I know what you need."</translated>
+    </string>
+
+    <string key="FINAL_21">
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: "Knock knock."</translated>
+    </string>
+
+    <string key="FINAL_22">
+        <char> </char>
+		<original> </original>
+        <translated>???: "Huh... Who's there."</translated>
+    </string>
+
+    <string key="FINAL_23">
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: "You."</translated>
+    </string>
+
+    <string key="FINAL_24">
+        <char> </char>
+		<original> </original>
+        <translated>???: "You who?"</translated>
+    </string>
+
+    <string key="FINAL_25">
+        <char> </char>
+		<original> </original>
+        <translated>Chuckles: "Yoo-hoo!"</translated>
+    </string>
+
+    <string key="FINAL_26">
+        <char> </char>
+		<original> </original>
+        <translated>Agony, The Clown: "Your jokes still aren't good."</translated>
+    </string>
 </Linguagem>

@@ -8,7 +8,7 @@ public class CutsceneFinalController : MonoBehaviour
 {
     [SerializeField] private SceneLoader sceneLoader;
     [SerializeField] private AudioManager audioManager;
-    private static int NUM_IMAGENS = 5;
+    private static int NUM_IMAGENS = 8;
     [SerializeField] private Image[] imagensCutscene;
     [SerializeField] private TMP_Text textoUI;
 
@@ -51,20 +51,143 @@ public class CutsceneFinalController : MonoBehaviour
     private IEnumerator CutsceneFinal() {
         yield return new WaitForSeconds(2f);
 
-        for(int i = 0;i < NUM_IMAGENS;i++) {
+        
+        //Imagens 1
+        StartCoroutine(FadeIn(imagensCutscene[0], 0.6f));
+        yield return new WaitForSeconds(0.6f);
 
-            StartCoroutine(FadeIn(imagensCutscene[i], 0.6f));
-            yield return new WaitForSeconds(0.6f);
-            SetText(textosCutscenes[i]);
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
 
-            yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
-            yield return new WaitForSeconds(0.1f);
-            
-            StartCoroutine(FadeOut(imagensCutscene[i], 0.6f));
-            yield return new WaitForSeconds(0.6f);
-            SetText("");
-            yield return new WaitForSeconds(0.6f);
-        }
+        SetText(textosCutscenes[1]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        SetText(textosCutscenes[2]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        SetText(textosCutscenes[3]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        SetText(textosCutscenes[4]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+
+        StartCoroutine(FadeOut(imagensCutscene[0], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+        SetText("");
+        yield return new WaitForSeconds(0.6f);
+
+        //Imagens 2
+        StartCoroutine(FadeIn(imagensCutscene[1], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        StartCoroutine(FadeOut(imagensCutscene[1], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+        SetText("");
+        yield return new WaitForSeconds(0.6f);
+
+        //Imagens 3
+        StartCoroutine(FadeIn(imagensCutscene[2], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+
+        //SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        StartCoroutine(FadeOut(imagensCutscene[2], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+        SetText("");
+        yield return new WaitForSeconds(0.6f);
+
+        //Imagens 4
+        StartCoroutine(FadeIn(imagensCutscene[3], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        StartCoroutine(FadeOut(imagensCutscene[3], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+        SetText("");
+        yield return new WaitForSeconds(0.6f);
+
+        //Imagens 5
+        StartCoroutine(FadeIn(imagensCutscene[4], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        StartCoroutine(FadeOut(imagensCutscene[4], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+        SetText("");
+        yield return new WaitForSeconds(0.6f);
+
+        //Imagens 6
+        StartCoroutine(FadeIn(imagensCutscene[5], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        StartCoroutine(FadeOut(imagensCutscene[5], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+        SetText("");
+        yield return new WaitForSeconds(0.6f);
+
+        //Imagens 7
+        StartCoroutine(FadeIn(imagensCutscene[6], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        StartCoroutine(FadeOut(imagensCutscene[6], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+        SetText("");
+        yield return new WaitForSeconds(0.6f);
+
+        //Imagens 8
+        StartCoroutine(FadeIn(imagensCutscene[7], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+
+        StartCoroutine(FadeOut(imagensCutscene[7], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+        SetText("");
+        yield return new WaitForSeconds(0.6f);
+
 
         yield return new WaitForSeconds(3f);
         IniciarCenaCreditos();

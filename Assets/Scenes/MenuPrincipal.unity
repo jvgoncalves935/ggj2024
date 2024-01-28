@@ -9675,6 +9675,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c1130ee4b6ef664b880a55f78cad5f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneLoader: {fileID: 4151728016533399908, guid: a645c4c2c9835e7409d67498b5a0d261, type: 3}
+  audioManager: {fileID: 9060284651338929096, guid: 9670f3ff600c54341a3cf8ccf73f3a48, type: 3}
   botaoJogar: {fileID: 29877765}
   botaoCreditos: {fileID: 1747030441}
   botaoOpcoes: {fileID: 155700376}

@@ -51,21 +51,22 @@ public class Cutscene02Manager: MonoBehaviour
     }
     private IEnumerator CutsceneInicial() {
         yield return new WaitForSeconds(0f);
+    
+        StartCoroutine(FadeIn(imagensCutscene[0], 0.6f));
+        yield return new WaitForSeconds(0.6f);
 
-        for(int i = 0;i < 2;i++) {
-            
-            StartCoroutine(FadeIn(imagensCutscene[i], 0.6f));
-            yield return new WaitForSeconds(0.6f);
-            SetText(textosCutscenes[i]);
+        SetText(textosCutscenes[0]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3f));
 
-            yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
-            yield return new WaitForSeconds(0.1f);
+        SetText(textosCutscenes[1]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
 
-            StartCoroutine(FadeOut(imagensCutscene[i], 0.6f));
-            yield return new WaitForSeconds(0.6f);
-            SetText("");
-            yield return new WaitForSeconds(0.6f);
-        }
+
+        StartCoroutine(FadeOut(imagensCutscene[0], 0.6f));
+        yield return new WaitForSeconds(0.6f);
+        SetText("");
+        yield return new WaitForSeconds(0.6f);
+        
 
         yield return new WaitForSeconds(1f);
         IniciarPrimeiraFase();
@@ -88,7 +89,7 @@ public class Cutscene02Manager: MonoBehaviour
     }
 
     public void MusicaInicio() {
-        AudioManager.InstanciaAudioManager.Play("Lenda do Espírito");
+        AudioManager.InstanciaAudioManager.Play("Rogue Circus");
     }
 
     public void SetText(string texto) {

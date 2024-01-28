@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class MenuPrincipalManager : MonoBehaviour
 {
+    [SerializeField] private SceneLoader sceneLoader;
+    [SerializeField] private AudioManager audioManager;
     [SerializeField] private Button botaoJogar;
     [SerializeField] private Button botaoCreditos;
     [SerializeField] private Button botaoOpcoes;
@@ -20,6 +22,8 @@ public class MenuPrincipalManager : MonoBehaviour
         IniciarListenersBotoes();
         VoltarMenuPrincipal();
         DesfocarMouse();
+        VerificarSceneLoaderInstanciado();
+        MusicaInicio();
     }
 
     // Update is called once per frame
@@ -32,6 +36,21 @@ public class MenuPrincipalManager : MonoBehaviour
     #if UNITY_EDITOR || UNITY_STANDALONE_WIN
         MouseOperations.DestravarCursorMultiPlat();
     #endif
+    }
+
+    public void MusicaInicio() {
+        AudioManager.InstanciaAudioManager.Play("Flying Circus");
+    }
+
+    public void VerificarSceneLoaderInstanciado() {
+        if(FindObjectOfType<SceneLoader>() == null) {
+            Instantiate(sceneLoader);
+            Instantiate(audioManager);
+            //DontDestroyOnLoad(sceneLoader);
+            //Debug.Log("SceneData criado em EventHorizon");
+        } else {
+            //Debug.Log("SceneData anteriormente criado");
+        }
     }
 
     private void OnButtonJogarClick()
@@ -58,12 +77,14 @@ public class MenuPrincipalManager : MonoBehaviour
         VoltarMenuPrincipal();
     }
 
-    private void CarregarCena() {
-        SceneManager.LoadScene("Scenes/CutsceneInicial", LoadSceneMode.Single);
-    }
-
     private void CarregarCreditos() {
         SceneManager.LoadScene("Scenes/Creditos", LoadSceneMode.Single);
+    }
+
+    private void CarregarCena() {
+        SceneLoader.InstanciaSceneLoader.SetProximaCena("CutsceneInicial");
+        //Debug.Log(SceneLoader.InstanciaSceneLoader.GetProximaCena());
+        GerenciadorCena.CarregarCena("Loading");
     }
 
     private void CarregarOpcoes()

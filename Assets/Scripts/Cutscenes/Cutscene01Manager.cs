@@ -68,8 +68,7 @@ public class Cutscene01Manager: MonoBehaviour
         SetText(textosCutscenes[3]);
         yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(2.5f));
 
-        SetText(textosCutscenes[4]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.5f));
+        
 
         StartCoroutine(FadeOut(imagensCutscene[0], 0.6f));
         yield return new WaitForSeconds(0.6f);
@@ -79,6 +78,9 @@ public class Cutscene01Manager: MonoBehaviour
         //Imagem 2
         StartCoroutine(FadeIn(imagensCutscene[1], 0.6f));
         yield return new WaitForSeconds(0.6f);
+
+        SetText(textosCutscenes[4]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.5f));
 
         SetText(textosCutscenes[5]);
         yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.5f));
@@ -137,7 +139,7 @@ public class Cutscene01Manager: MonoBehaviour
     }
 
     public void MusicaInicio() {
-        AudioManager.InstanciaAudioManager.Play("Lenda do Espírito");
+        AudioManager.InstanciaAudioManager.Play("Close Encounters");
     }
 
     public void SetText(string texto) {

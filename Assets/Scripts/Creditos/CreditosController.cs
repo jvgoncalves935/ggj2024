@@ -74,7 +74,7 @@ public class CreditosController : MonoBehaviour
 
     private void AplicarStrings() {
         
-        for(int i = 0;i < 13;i++) {
+        for(int i = 0; i < 9;i++) {
             textosUI[i*2].text = stringsCreditos["CREDITOS_COMMON_" + i];
             textosUI[i*2+1].text = stringsCreditos["CREDITOS_" + i];
         }

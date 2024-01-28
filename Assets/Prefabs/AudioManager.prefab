@@ -72,7 +72,7 @@ MonoBehaviour:
     soundClip: {fileID: 0}
     musica: 1
     som: 0
-    volume: 0.631
+    volume: 0.638
     pitch: 1
     loop: 1
     awake: 1
@@ -107,6 +107,16 @@ MonoBehaviour:
     loop: 1
     awake: 1
     source: {fileID: 0}
+  - name: Flying Circus
+    clip: {fileID: 8300000, guid: 605b4da7c192c044286432d5aa32e1fa, type: 3}
+    soundClip: {fileID: 0}
+    musica: 1
+    som: 0
+    volume: 1
+    pitch: 1
+    loop: 1
+    awake: 1
+    source: {fileID: 0}
   - name: eae mano blz
     clip: {fileID: 8300000, guid: a00cf77b2b3b2404b88e9bb75e1284fa, type: 3}
     soundClip: {fileID: 0}
@@ -114,7 +124,7 @@ MonoBehaviour:
     som: 0
     volume: 1
     pitch: 1
-    loop: 0
+    loop: 1
     awake: 1
     source: {fileID: 0}
   musicasAudioMixerGroup: {fileID: -5956204415325992436, guid: 30755fad963294643860377d4450b14e, type: 2}
