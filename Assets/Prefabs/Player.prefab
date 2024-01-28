@@ -118,7 +118,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.3662032, y: -0.031612635}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -129,7 +129,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.4456731, y: 0.52168703}
   m_EdgeRadius: 0
 --- !u!114 &3924537546305640697
 MonoBehaviour:
@@ -175,7 +175,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -16.64, y: -2.07, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 5.5, y: 5.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 876064226849980439}
@@ -225,7 +225,7 @@ SpriteRenderer:
   m_SortingLayerID: 1491505721
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1307168756, guid: 6ebfe37cb00565c4aa42e8bdff411e8b, type: 3}
+  m_Sprite: {fileID: -1638887793, guid: f5c81c04a56d0d542826bc85ea9750ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -352,8 +352,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.05993426, y: 0}
-  m_Size: {x: 0.5901317, y: 0.94}
+  m_Offset: {x: 0.012793368, y: -0.0063361255}
+  m_Size: {x: 0.40156808, y: 0.62792313}
   m_Direction: 0
 --- !u!82 &9077679953172914615
 AudioSource:
