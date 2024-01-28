@@ -97336,10 +97336,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2455532839821338458, guid: 93976484378a2ed44afbce6ed2a2346f, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455532839821338458, guid: 93976484378a2ed44afbce6ed2a2346f, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -97410,10 +97406,6 @@ PrefabInstance:
     - target: {fileID: 2455532839821338458, guid: 93976484378a2ed44afbce6ed2a2346f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455532839821338468, guid: 93976484378a2ed44afbce6ed2a2346f, type: 3}
-      propertyPath: m_ScreenMatchMode
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2455532839821338469, guid: 93976484378a2ed44afbce6ed2a2346f, type: 3}
       propertyPath: m_Camera
