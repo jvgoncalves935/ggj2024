@@ -97178,29 +97178,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2010439804}
     m_Modifications:
-    - target: {fileID: 1954453901579858022, guid: 4908a74abc6d88d4584a3a4282eaf7b7, type: 3}
-      propertyPath: pauseTime
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1954453901579858022, guid: 4908a74abc6d88d4584a3a4282eaf7b7, type: 3}
-      propertyPath: enemyDamage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1954453901579858023, guid: 4908a74abc6d88d4584a3a4282eaf7b7, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1954453901579858023, guid: 4908a74abc6d88d4584a3a4282eaf7b7, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 426628207
-      objectReference: {fileID: 0}
-    - target: {fileID: 1954453901579858027, guid: 4908a74abc6d88d4584a3a4282eaf7b7, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1954453901579858027, guid: 4908a74abc6d88d4584a3a4282eaf7b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.71
+      value: -19.81
       objectReference: {fileID: 0}
     - target: {fileID: 1954453901579858027, guid: 4908a74abc6d88d4584a3a4282eaf7b7, type: 3}
       propertyPath: m_LocalPosition.y
