@@ -117,6 +117,16 @@ MonoBehaviour:
     loop: 1
     awake: 1
     source: {fileID: 0}
+  - name: Boss Extravaganza
+    clip: {fileID: 8300000, guid: 5470260ed5c698d439a5a3bc1344332e, type: 3}
+    soundClip: {fileID: 0}
+    musica: 1
+    som: 0
+    volume: 0.765
+    pitch: 1
+    loop: 1
+    awake: 1
+    source: {fileID: 0}
   - name: eae mano blz
     clip: {fileID: 8300000, guid: a00cf77b2b3b2404b88e9bb75e1284fa, type: 3}
     soundClip: {fileID: 0}

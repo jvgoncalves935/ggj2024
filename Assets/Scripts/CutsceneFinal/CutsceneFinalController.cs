@@ -57,19 +57,19 @@ public class CutsceneFinalController : MonoBehaviour
         yield return new WaitForSeconds(0.6f);
 
         SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
 
         SetText(textosCutscenes[1]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(2.5f));
 
         SetText(textosCutscenes[2]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
 
         SetText(textosCutscenes[3]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(2.5f));
 
         SetText(textosCutscenes[4]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
 
 
         StartCoroutine(FadeOut(imagensCutscene[0], 0.6f));
@@ -81,35 +81,35 @@ public class CutsceneFinalController : MonoBehaviour
         StartCoroutine(FadeIn(imagensCutscene[1], 0.6f));
         yield return new WaitForSeconds(0.6f);
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        SetText(textosCutscenes[5]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.5f));
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        SetText(textosCutscenes[6]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.5f));
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        SetText(textosCutscenes[7]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        SetText(textosCutscenes[8]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        SetText(textosCutscenes[9]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        SetText(textosCutscenes[10]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        SetText(textosCutscenes[11]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.5f));
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        SetText(textosCutscenes[12]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        SetText(textosCutscenes[13]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(2.5f));
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        SetText(textosCutscenes[14]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
 
         StartCoroutine(FadeOut(imagensCutscene[1], 0.6f));
         yield return new WaitForSeconds(0.6f);
@@ -121,7 +121,7 @@ public class CutsceneFinalController : MonoBehaviour
         yield return new WaitForSeconds(0.6f);
 
         //SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.5f));
 
         StartCoroutine(FadeOut(imagensCutscene[2], 0.6f));
         yield return new WaitForSeconds(0.6f);
@@ -129,11 +129,13 @@ public class CutsceneFinalController : MonoBehaviour
         yield return new WaitForSeconds(0.6f);
 
         //Imagens 4
+        PararMusica();
+
         StartCoroutine(FadeIn(imagensCutscene[3], 0.6f));
         yield return new WaitForSeconds(0.6f);
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        SetText(textosCutscenes[15]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.5f));
 
         StartCoroutine(FadeOut(imagensCutscene[3], 0.6f));
         yield return new WaitForSeconds(0.6f);
@@ -144,8 +146,20 @@ public class CutsceneFinalController : MonoBehaviour
         StartCoroutine(FadeIn(imagensCutscene[4], 0.6f));
         yield return new WaitForSeconds(0.6f);
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        SetText(textosCutscenes[16]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3f));
+
+        SetText(textosCutscenes[17]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(5.5f));
+
+        SetText(textosCutscenes[18]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(5f));
+
+        SetText(textosCutscenes[19]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.5f));
+
+        SetText(textosCutscenes[20]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.5f));
 
         StartCoroutine(FadeOut(imagensCutscene[4], 0.6f));
         yield return new WaitForSeconds(0.6f);
@@ -156,8 +170,7 @@ public class CutsceneFinalController : MonoBehaviour
         StartCoroutine(FadeIn(imagensCutscene[5], 0.6f));
         yield return new WaitForSeconds(0.6f);
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
 
         StartCoroutine(FadeOut(imagensCutscene[5], 0.6f));
         yield return new WaitForSeconds(0.6f);
@@ -168,8 +181,7 @@ public class CutsceneFinalController : MonoBehaviour
         StartCoroutine(FadeIn(imagensCutscene[6], 0.6f));
         yield return new WaitForSeconds(0.6f);
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
 
         StartCoroutine(FadeOut(imagensCutscene[6], 0.6f));
         yield return new WaitForSeconds(0.6f);
@@ -180,8 +192,23 @@ public class CutsceneFinalController : MonoBehaviour
         StartCoroutine(FadeIn(imagensCutscene[7], 0.6f));
         yield return new WaitForSeconds(0.6f);
 
-        SetText(textosCutscenes[0]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(6.9f));
+        SetText(textosCutscenes[21]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(2.5f));
+
+        SetText(textosCutscenes[22]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(2.5f));
+
+        SetText(textosCutscenes[23]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(2.5f));
+
+        SetText(textosCutscenes[24]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(2.5f));
+
+        SetText(textosCutscenes[25]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(2.5f));
+
+        SetText(textosCutscenes[26]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(2.5f));
 
         StartCoroutine(FadeOut(imagensCutscene[7], 0.6f));
         yield return new WaitForSeconds(0.6f);
@@ -209,7 +236,12 @@ public class CutsceneFinalController : MonoBehaviour
     }
 
     public void MusicaInicio() {
-        AudioManager.InstanciaAudioManager.Play("Nami Budi");
+        AudioManager.InstanciaAudioManager.Play("Boss Extravaganza");
+    }
+
+    public void PararMusica() {
+        AudioManager.InstanciaAudioManager.StopMusicaAtual();
+        AudioManager.InstanciaAudioManager.Play("Final Reverie");
     }
 
     private IEnumerator FadeIn(Image imagem, float tempoFinal) {
@@ -251,9 +283,9 @@ public class CutsceneFinalController : MonoBehaviour
     }
 
     private void AplicarStrings() {
-        textosCutscenes = new string[5];
-        for(int i = 0;i < 5;i++) {
-            textosCutscenes[i] = "[" + stringsPersonagensCutsceneFinal["FINAL_" + i] + "]" + "\n" + stringsCutsceneFinal["FINAL_" + i];
+        textosCutscenes = new string[27];
+        for(int i = 0;i < 27;i++) {
+            textosCutscenes[i] = stringsCutsceneFinal["FINAL_" + i];
         }
     }
 }
