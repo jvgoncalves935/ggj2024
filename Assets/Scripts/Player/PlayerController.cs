@@ -15,9 +15,9 @@ public class PlayerController: MonoBehaviour
 
     [Header("Gravity Settings")]
     [SerializeField] private float raycastGroundDistance = 1.0f;
-    [SerializeField] private Transform groundCheck;
+    [SerializeField] private Vector2 groundCheckBoxSize;
+    [SerializeField] private float groundCheckCastDistance;
     [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private LayerMask ladderLayer;
     [SerializeField] private PhysicsMaterial2D noFrictionMaterial;
     [SerializeField] private PhysicsMaterial2D fullFrictionMaterial;
     [SerializeField] private bool isGrounded = false;
@@ -30,9 +30,9 @@ public class PlayerController: MonoBehaviour
     [SerializeField] private int playerCurrentHealth = 5;
     [SerializeField] private float invencibilityTime = 1.0f;
 
+
+
     
-
-
     private Rigidbody2D rb;
     private Animator animator;
     private bool isPlayerHit = false;
@@ -78,7 +78,7 @@ public class PlayerController: MonoBehaviour
             IsGroundedCheck();
             
             GetHorizontalVerticalMove();
-            IsSlopeCheck();
+            //IsSlopeCheck();
 
             CharacterMoveHorizontal();
             CharacterMoveVertical();
@@ -127,11 +127,19 @@ public class PlayerController: MonoBehaviour
 
     }
 
-    private bool IsGroundedCheck() {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-        return isGrounded;
+    private void IsGroundedCheck() {
+        if(Physics2D.BoxCast(transform.position, groundCheckBoxSize, 0, -transform.up, groundCheckCastDistance, groundLayer)) {
+            isGrounded = true;
+        } else {
+            isGrounded = false;
+        }
     }
 
+    private void OnDrawGizmos() {
+        Gizmos.DrawWireCube(transform.position - transform.up * groundCheckCastDistance, groundCheckBoxSize);
+    }
+
+    /*
     private bool IsSlopeCheck() {
         if(isGrounded) {
             return isGrounded;
@@ -155,6 +163,7 @@ public class PlayerController: MonoBehaviour
 
         return isGrounded;
     }
+    */
 
     private void GetSprint() {
         if(Input.GetButton("Run")) {
@@ -336,11 +345,11 @@ public class PlayerController: MonoBehaviour
         rb.velocity = new Vector2(0, 0);
         isPlayerAttacking = true;
         //Sacando a espada
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(0.1f);
 
         //Aplicando dano
         swordCollider.SetActive(true);
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.25f);
 
         //Deadframes espada e fim animação
         swordCollider.SetActive(false);
