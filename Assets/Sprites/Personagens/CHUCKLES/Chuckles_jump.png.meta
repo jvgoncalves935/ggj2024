@@ -118,7 +118,7 @@ TextureImporter:
         width: 49
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +139,7 @@ TextureImporter:
         width: 50
         height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +160,7 @@ TextureImporter:
         width: 50
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,7 +181,7 @@ TextureImporter:
         width: 50
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,6 +189,27 @@ TextureImporter:
       bones: []
       spriteID: 13ad47d1deb72cd4bb8b805b6d6d919c
       internalID: 1179360569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chuckles_killed
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 19
+        width: 6
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06d6afa8886259419f2e2df4a696646
+      internalID: -667030686
       vertices: []
       indices: 
       edges: []
@@ -208,7 +229,7 @@ TextureImporter:
       Chuckles_jump_1: -1531779052
       Chuckles_jump_2: 2118417524
       Chuckles_jump_3: 1179360569
-      Chuckles_jump_4: -361026265
+      Chuckles_killed: -361026265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

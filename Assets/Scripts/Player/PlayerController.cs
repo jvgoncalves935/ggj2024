@@ -5,13 +5,14 @@ using UnityEngine;
 public class PlayerController: MonoBehaviour
 {
     [Header("Player Movement")]
-    [SerializeField] private float runSpeed;
+    [SerializeField] private float walkSpeed;
     [SerializeField] private float jumpForce;
     [SerializeField] private float horizontalMove = 0f;
     [SerializeField] private float verticalMove = 0f;
     [SerializeField] private bool isRunning = false;
     [SerializeField] private bool isFacingRight = true;
     [SerializeField] private float runMultipier = 1.6f;
+    [SerializeField] private float attackSpeedMultiplier = 0.3f;
 
     [Header("Gravity Settings")]
     [SerializeField] private float raycastGroundDistance = 1.0f;
@@ -107,7 +108,7 @@ public class PlayerController: MonoBehaviour
     }
 
     void CharacterMoveHorizontal() {
-        rb.velocity = new Vector2(horizontalMove * runSpeed, rb.velocity.y);
+        rb.velocity = new Vector2(horizontalMove * walkSpeed, rb.velocity.y);
         if (isRunning)
         {
             rb.velocity = new Vector2(rb.velocity.x * runMultipier, rb.velocity.y);
@@ -138,32 +139,6 @@ public class PlayerController: MonoBehaviour
     private void OnDrawGizmos() {
         Gizmos.DrawWireCube(transform.position - transform.up * groundCheckCastDistance, groundCheckBoxSize);
     }
-
-    /*
-    private bool IsSlopeCheck() {
-        if(isGrounded) {
-            return isGrounded;
-        }
-
-        RaycastHit2D hit = Physics2D.Raycast(groundCheck.position,Vector2.down,raycastGroundDistance,ladderLayer);
-
-        if(hit.collider != null && horizontalMove == 0f) {
-
-            Debug.DrawRay(hit.point,hit.normal, Color.green);
-            //Debug.Log("achou");
-
-            rb.sharedMaterial = fullFrictionMaterial;
-        } else {
-            Debug.DrawRay(hit.point, hit.normal, Color.red);
-            //Debug.Log("nao achou");
-
-            rb.sharedMaterial = noFrictionMaterial;
-        }
-        isGrounded = hit.collider != null;
-
-        return isGrounded;
-    }
-    */
 
     private void GetSprint() {
         if(Input.GetButton("Run")) {
@@ -289,7 +264,7 @@ public class PlayerController: MonoBehaviour
     {
         if (playerKilled)
         {
-            rb.velocity = new Vector2(0, 0);
+            rb.velocity = new Vector2(0, rb.velocity.y);
         }
     }
 
@@ -331,7 +306,8 @@ public class PlayerController: MonoBehaviour
         }
         else
         {
-            rb.velocity = new Vector2(0, 0);
+            //rb.velocity = new Vector2(horizontalMove * walkSpeed * attackSpeedMultiplier, rb.velocity.y);
+            rb.velocity = new Vector2(0, rb.velocity.y);
         }
     }
 

@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 2455532841413060301}
   - component: {fileID: 2455532841413060300}
   m_Layer: 5
-  m_Name: Heart
+  m_Name: Face
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
