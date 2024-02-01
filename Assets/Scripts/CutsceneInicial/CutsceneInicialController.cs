@@ -12,7 +12,7 @@ public class CutsceneInicialController : MonoBehaviour
     private int indiceTextoAtual;
     [SerializeField] private Image[] imagensCutscene;
 
-    private Dictionary<string, string> stringsCutsceneInicial;
+    private Dictionary<string, string> stringsCutscene;
     private Dictionary<string, string> stringsPersonagensCutsceneInicial;
 
     private static int NUM_IMAGENS = 6;
@@ -60,10 +60,8 @@ public class CutsceneInicialController : MonoBehaviour
 
             yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
             if(i == 4) {
-                yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(5f));
+                yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(7f));
             }
-
-            yield return new WaitForSeconds(0.1f);
 
             StartCoroutine(FadeOut(imagensCutscene[i], 0.5f));
             yield return new WaitForSeconds(0.5f);
@@ -130,13 +128,17 @@ public class CutsceneInicialController : MonoBehaviour
     }
 
     private void CarregarStrings() {
-        LocalizationSystem.GetDicionarioStringsFullCena(GerenciadorCena.NomeCenaAtual(), out stringsCutsceneInicial, out stringsPersonagensCutsceneInicial);
+        LocalizationSystem.GetDicionarioStringsFullCena(GerenciadorCena.NomeCenaAtual(), out stringsCutscene, out stringsPersonagensCutsceneInicial);
     }
 
     private void AplicarStrings() {
-        textosCutscenes = new string[NUM_IMAGENS];
-        for(int i = 0;i < NUM_IMAGENS;i++) {
-            textosCutscenes[i] = stringsCutsceneInicial["INICIAL_" + i];
+        textosCutscenes = new string[stringsCutscene.Count];
+        for(int i = 0;i < stringsCutscene.Count;i++) {
+            if(stringsPersonagensCutsceneInicial["INICIAL_" + i] != "") {
+                textosCutscenes[i] = "[" + stringsPersonagensCutsceneInicial["INICIAL_" + i] + "]\n" + stringsCutscene["INICIAL_" + i];
+            } else {
+                textosCutscenes[i] = stringsCutscene["INICIAL_" + i];
+            }
         }
     }
 }

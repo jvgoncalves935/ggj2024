@@ -80,7 +80,7 @@ public class MenuPausa : MonoBehaviour
         ToggleElementosMenuPausa(false);
         
         Time.timeScale = 1f;
-        SkippableCutscenes.InstanciaSkippableCutscenes.SetMouseClick(false);
+        SkippableCutscenes.InstanciaSkippableCutscenes.SetInputSkip(false);
         //AudioListener.pause = false;
         jogoPausado = false;
         

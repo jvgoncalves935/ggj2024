@@ -12,7 +12,7 @@ public class Cutscene02Manager: MonoBehaviour
     private int indiceTextoAtual;
     [SerializeField] private Image[] imagensCutscene;
 
-    private Dictionary<string, string> stringsCutsceneInicial;
+    private Dictionary<string, string> stringsCutscene;
     private Dictionary<string, string> stringsPersonagensCutsceneInicial;
 
     private static int NUM_IMAGENS = 1;
@@ -59,6 +59,15 @@ public class Cutscene02Manager: MonoBehaviour
         yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3f));
 
         SetText(textosCutscenes[1]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
+
+        SetText(textosCutscenes[2]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
+
+        SetText(textosCutscenes[3]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(5f));
+
+        SetText(textosCutscenes[4]);
         yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4f));
 
 
@@ -127,13 +136,18 @@ public class Cutscene02Manager: MonoBehaviour
     }
 
     private void CarregarStrings() {
-        LocalizationSystem.GetDicionarioStringsFullCena(GerenciadorCena.NomeCenaAtual(), out stringsCutsceneInicial, out stringsPersonagensCutsceneInicial);
+        LocalizationSystem.GetDicionarioStringsFullCena(GerenciadorCena.NomeCenaAtual(), out stringsCutscene, out stringsPersonagensCutsceneInicial);
     }
 
     private void AplicarStrings() {
-        textosCutscenes = new string[2];
-        for(int i = 0;i < 2;i++) {
-            textosCutscenes[i] = stringsCutsceneInicial["CUTSCENE02_" + i];
+        textosCutscenes = new string[stringsCutscene.Count];
+        for(int i = 0;i < stringsCutscene.Count;i++) {
+            if(stringsPersonagensCutsceneInicial["CUTSCENE02_" + i] != "") {
+                textosCutscenes[i] = "[" + stringsPersonagensCutsceneInicial["CUTSCENE02_" + i] + "]\n" + stringsCutscene["CUTSCENE02_" + i];
+            } else {
+                textosCutscenes[i] = stringsCutscene["CUTSCENE02_" + i];
+            }
+
         }
     }
 }

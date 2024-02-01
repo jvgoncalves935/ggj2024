@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SkippableCutscenes : MonoBehaviour
 {
-    public bool mouseClick;
+    public bool inputSkip;
 
     [SerializeField] public static GameObject instanciaSkippableCutscenes;
     private static SkippableCutscenes _instanciaSkippableCutscenes;
@@ -22,26 +22,29 @@ public class SkippableCutscenes : MonoBehaviour
     }
     public IEnumerator WaitForSecondsCancelavel(float tempo) {
         for(float i = 0;i <= tempo;i += Time.deltaTime) {
-            if(mouseClick && Time.timeScale == 1) {
-                yield break;
+            if(inputSkip && Time.timeScale == 1) {
+                break;
             }
             yield return null;
         }
+        //Frame extra para que o skip não pule duas cutscenes de uma vez.
+        yield return null;
+
     }
 
     private void Update() {
-        GetMouseClick();
+        GetInputsSkip();
     }
 
-    private void GetMouseClick() {
-        if(Input.GetMouseButtonDown(0)) {
-            mouseClick = true;
+    private void GetInputsSkip() {
+        if(Input.GetMouseButtonDown(0) || Input.GetButtonDown("Jump") || Input.GetButtonDown("Submit")) {
+            inputSkip = true;
         } else {
-            mouseClick = false;
+            inputSkip = false;
         }
     }
 
-    public void SetMouseClick(bool flag) {
-        mouseClick = flag;
+    public void SetInputSkip(bool flag) {
+        inputSkip = flag;
     }
 }

@@ -80,6 +80,8 @@ public class MenuPausaManager : MonoBehaviour
         canvas.SetActive(ativado);
         imagemCamadaPreta = camadaPreta.GetComponent<Image>();
         imagemCamadaPreta.color = new Color(0, 0, 0, corPretaTelaPausa);
+        DestravarModoCursor();
+        TravarCursor();
     }
 
     private void IniciarListenersBotoes()
@@ -90,7 +92,9 @@ public class MenuPausaManager : MonoBehaviour
         botaoContinuarMP = botaoContinuar.GetComponent<BotaoMenuPausa>();
     }
 
-
+    private void DestravarModoCursor() {
+        Cursor.lockState = CursorLockMode.None;
+    }
 
     public static void TravarCursor()
     {

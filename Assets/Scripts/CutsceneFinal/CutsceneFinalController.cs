@@ -12,8 +12,8 @@ public class CutsceneFinalController : MonoBehaviour
     [SerializeField] private Image[] imagensCutscene;
     [SerializeField] private TMP_Text textoUI;
 
-    private Dictionary<string, string> stringsCutsceneFinal;
-    private Dictionary<string, string> stringsPersonagensCutsceneFinal;
+    private Dictionary<string, string> stringsCutscene;
+    private Dictionary<string, string> stringsPersonagensCutscene;
 
     private string[] textosCutscenes;
 
@@ -279,13 +279,17 @@ public class CutsceneFinalController : MonoBehaviour
     }
 
     private void CarregarStrings() {
-        LocalizationSystem.GetDicionarioStringsFullCena(GerenciadorCena.NomeCenaAtual(), out stringsCutsceneFinal, out stringsPersonagensCutsceneFinal);
+        LocalizationSystem.GetDicionarioStringsFullCena(GerenciadorCena.NomeCenaAtual(), out stringsCutscene, out stringsPersonagensCutscene);
     }
 
     private void AplicarStrings() {
-        textosCutscenes = new string[27];
-        for(int i = 0;i < 27;i++) {
-            textosCutscenes[i] = stringsCutsceneFinal["FINAL_" + i];
+        textosCutscenes = new string[stringsCutscene.Count];
+        for(int i = 0;i < stringsCutscene.Count;i++) {
+            if(stringsPersonagensCutscene["FINAL_" + i] != "") {
+                textosCutscenes[i] = "[" + stringsPersonagensCutscene["FINAL_" + i] + "]\n" + stringsCutscene["FINAL_" + i];
+            } else {
+                textosCutscenes[i] = stringsCutscene["FINAL_" + i];
+            }
         }
     }
 }

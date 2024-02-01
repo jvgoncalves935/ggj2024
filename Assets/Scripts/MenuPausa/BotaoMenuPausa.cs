@@ -43,7 +43,6 @@ public class BotaoMenuPausa : MonoBehaviour, IPointerEnterHandler, IPointerExitH
         
         texto.color = new Color(1, 0, 0, 1);
         botaoOriginal.Select();
-        
     }
 
     public void DeselecionarBotao() {

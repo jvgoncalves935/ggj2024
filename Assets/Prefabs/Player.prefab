@@ -283,8 +283,8 @@ MonoBehaviour:
   runMultipier: 1.6
   attackSpeedMultiplier: 0.3
   raycastGroundDistance: 2.5
-  groundCheckBoxSize: {x: 1.98, y: 0.26}
-  groundCheckCastDistance: 2.05
+  groundCheckBoxSize: {x: 1.04, y: 0.17}
+  groundCheckCastDistance: 1.94
   groundLayer:
     serializedVersion: 2
     m_Bits: 192
@@ -446,7 +446,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.011477269, y: 0}
+  m_Offset: {x: 0.0027517527, y: 0.004160881}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -457,7 +457,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.24906866, y: 0.64}
+  m_Size: {x: 0.25156382, y: 0.6316782}
   m_EdgeRadius: 0
 --- !u!1 &876064225933240914
 GameObject:

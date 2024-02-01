@@ -12,7 +12,7 @@ public class Cutscene01Manager: MonoBehaviour
     private int indiceTextoAtual;
     [SerializeField] private Image[] imagensCutscene;
 
-    private Dictionary<string, string> stringsCutsceneInicial;
+    private Dictionary<string, string> stringsCutscene;
     private Dictionary<string, string> stringsPersonagensCutsceneInicial;
 
     private static int NUM_IMAGENS = 3;
@@ -70,8 +70,9 @@ public class Cutscene01Manager: MonoBehaviour
 
         
 
-        StartCoroutine(FadeOut(imagensCutscene[0], 0.6f));
-        yield return new WaitForSeconds(0.6f);
+        yield return StartCoroutine(FadeOut(imagensCutscene[0], 0.6f));
+        //yield return new WaitForSeconds(0.6f);
+
         SetText("");
         yield return new WaitForSeconds(0.6f);
 
@@ -111,7 +112,10 @@ public class Cutscene01Manager: MonoBehaviour
         yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.0f));
 
         SetText(textosCutscenes[11]);
-        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(3.0f));
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(5.5f));
+
+        SetText(textosCutscenes[12]);
+        yield return StartCoroutine(SkippableCutscenes.InstanciaSkippableCutscenes.WaitForSecondsCancelavel(4.5f));
 
         StartCoroutine(FadeOut(imagensCutscene[2], 0.6f));
         yield return new WaitForSeconds(0.6f);
@@ -123,7 +127,7 @@ public class Cutscene01Manager: MonoBehaviour
     }
     private void IniciarPrimeiraFase() {
         SceneLoader.InstanciaSceneLoader.SetProximaCena("Fase02");
-        //Debug.Log(SceneLoader.InstanciaSceneLoader.GetProximaCena());
+        
         GerenciadorCena.CarregarCena("Loading");
     }
 
@@ -177,13 +181,18 @@ public class Cutscene01Manager: MonoBehaviour
     }
 
     private void CarregarStrings() {
-        LocalizationSystem.GetDicionarioStringsFullCena(GerenciadorCena.NomeCenaAtual(), out stringsCutsceneInicial, out stringsPersonagensCutsceneInicial);
+        LocalizationSystem.GetDicionarioStringsFullCena(GerenciadorCena.NomeCenaAtual(), out stringsCutscene, out stringsPersonagensCutsceneInicial);
     }
 
     private void AplicarStrings() {
-        textosCutscenes = new string[12];
-        for(int i = 0;i < 12;i++) {
-            textosCutscenes[i] = stringsCutsceneInicial["CUTSCENE01_" + i];
+        textosCutscenes = new string[stringsCutscene.Count];
+        for(int i = 0;i < stringsCutscene.Count;i++) {
+            if(stringsPersonagensCutsceneInicial["CUTSCENE01_" + i] != "") {
+                textosCutscenes[i] = "[" + stringsPersonagensCutsceneInicial["CUTSCENE01_" + i] + "]\n" +stringsCutscene["CUTSCENE01_" + i];
+            } else {
+                textosCutscenes[i] = stringsCutscene["CUTSCENE01_" + i];
+            }
+            
         }
     }
 }
